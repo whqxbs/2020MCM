@@ -5,9 +5,9 @@ import json
 import pandas as pd
 
 #API Information
-APP_ID = '18696710'
-API_KEY = 'NMo5ubjDMW5cs771CTKnWYX0'
-SECRET_KEY = 'kwcy5zl5EmuRcVEtaFsw2Oh9ImcDzNdE'
+APP_ID = 'xxx'
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
