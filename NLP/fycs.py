@@ -4,11 +4,11 @@ import json
 
 def fy(q):
     error = 'None'
-    salt = '25498'
+    salt = 'xxx'
 
     base = "https://api.fanyi.baidu.com/api/trans/vip/translate"
-    appid = "20200303000392203"
-    key = "_rkEepOZdcXkL_DebWus"
+    appid = "xxx"
+    key = "xxx"
     mid = appid+q+salt+key
 
     m = hashlib.md5()
@@ -16,7 +16,7 @@ def fy(q):
     m.update(b)
     ret = m.hexdigest()
 
-    url = base+"?q="+q+"&from=aoto&to=zh&appid=20200303000392203&salt="+salt+"&sign="+ret
+    url = base+"?q="+q+"&from=aoto&to=zh&appid=xxx&salt="+salt+"&sign="+ret
 
     midres = requests.get(url)
     midres.encoding='raw-unicode-escape'
