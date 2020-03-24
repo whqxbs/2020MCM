@@ -35,7 +35,7 @@ def fy(q):
     m.update(b)
     ret = m.hexdigest()
 
-    url = base+"?q="+q+"&from=aoto&to=zh&appid=20200303000392203&salt="+salt+"&sign="+ret
+    url = base+"?q="+q+"&from=aoto&to=zh&appid=xxx&salt="+salt+"&sign="+ret
 
     midres = requests.get(url)
     midres.encoding='raw-unicode-escape'
