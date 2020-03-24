@@ -23,11 +23,11 @@ def donlp(text):
 
 def fy(q):
     error = 'None'
-    salt = '25498'
+    salt = 'xxx'
 
     base = "https://api.fanyi.baidu.com/api/trans/vip/translate"
-    appid = "20200303000392203"
-    key = "_rkEepOZdcXkL_DebWus"
+    appid = "xxx"
+    key = "xxx"
     mid = appid+q+salt+key
 
     m = hashlib.md5()
